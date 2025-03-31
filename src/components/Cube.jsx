@@ -16,6 +16,7 @@ const Cube = ({ ...props }) => {
   const [hovered, setHovered] = useState(false);
 
   useGSAP(() => {
+    
     gsap
       .timeline({
         repeat: -1,
